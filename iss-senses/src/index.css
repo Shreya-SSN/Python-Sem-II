@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-space-900 text-white antialiased;
+}
+
+/* High contrast mode */
+@media (prefers-contrast: more) {
+  body { @apply bg-black text-white; }
+}

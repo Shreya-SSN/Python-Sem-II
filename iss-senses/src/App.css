@@ -1,0 +1,2 @@
+/* App-specific minimal overrides; Tailwind handles most styles */
+* { box-sizing: border-box; }
